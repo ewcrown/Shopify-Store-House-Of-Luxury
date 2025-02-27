@@ -1,0 +1,28 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "t:sections.footer-group.name",
+  "sections": {
+    "ew-footer": {
+      "type": "ew-footer",
+      "settings": {
+        "heading": "Quick links",
+        "menu": "footer",
+        "copyright_text": "© 2025, House of Luxury LLC",
+        "powered_by_text": "Powered by Shopify",
+        "policy_menu": "footer"
+      }
+    }
+  },
+  "order": [
+    "ew-footer"
+  ]
+}

@@ -1,0 +1,130 @@
+{% assign s = section.settings %}
+
+<section class="ew-pwu-section ew-pwu-section-{{ section.id }}" id="ew-pwu-section">
+  <div class="ew-pwu-row1"> 
+    <div class="page-width">
+      <div class="ew-pwu-wrap">
+        <div class="ew-subheading">
+            <div class="ew-bg"></div>
+            <div class="ew-text">{{ s.subheading }}</div>
+        </div>
+        <h3 class="ew-heading">{{ s.heading }}</h3>
+        <p>{{ s.description }}</p>
+      </div>
+    </div>
+  </div>
+  <div class="ew-pwu-row2">
+    <div class="splide ew-images-slider">
+      <div class="splide__track">
+        <div class="splide__list">
+          {% for block in section.blocks  %}
+            <div class="splide__slide">
+              <img src="{{ block.settings.slider_image | image_url: width: 600 }}" class="img-responsive" alt="Slider Image" />
+            </div>
+          {% endfor %}
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="ew-pwu-row3">
+    <div class="page-width">
+      <div class="ew-pwu-wrap3">
+        <div class="ew-wwo-wrap">
+        <div class="ew-subheading">
+          <div class="ew-bg"></div>
+          <div class="ew-text">{{ s.wwo_heading }}</div>
+        </div>
+      </div>
+        <div class="ew-pwu-list">
+          <ul>
+            <li>{{ s.list_item1 }}</li>
+            <li>{{ s.list_item2 }}</li>
+            <li>{{ s.list_item3 }}</li>
+            <li>{{ s.list_item4 }}</li>
+          </ul>
+        </div>
+      </div>
+      <div class="ew-pwu-form">
+        {% render 'ew-form-snippet', form: s.form_content %}
+      </div>
+    </div>
+  </div>
+</section>
+{% schema %}
+  {
+    "name": "<> Partner With Us",
+    "settings": [
+      {
+        "type": "text",
+        "id": "subheading",
+        "label": "Subheading Here",
+        "default": "Partner With Us"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading Here",
+        "default": "House of Luxury Offerings"
+      },
+      {
+        "type": "text",
+        "id": "description",
+        "label": "Description Here",
+        "default": "House of Luxury offers a full suite of solutions for individuals and businesses interested in buying and selling luxury goods. Education, Buyback, Access to Wholesale Suppliers & More."
+      },
+      {
+        "type": "text",
+        "id": "wwo_heading",
+        "label": "Heading 2",
+        "default": "What we offer"
+      },
+      {
+        "type": "liquid",
+        "id": "form_content",
+        "label": "Form Snippet"
+      },
+      {
+        "type": "text",
+        "id": "list_item1",
+        "label": "List Item 1",
+        "default": "Educational Community"
+      },
+      {
+        "type": "text",
+        "id": "list_item2",
+        "label": "List Item 2",
+        "default": "Buyout / Cash Out Offers"
+      },
+      {
+        "type": "text",
+        "id": "list_item3",
+        "label": "List Item 3",
+        "default": "B2B Marketplace"
+      },
+      {
+        "type": "text",
+        "id": "list_item4",
+        "label": "List Item 4",
+        "default": "Partnership Opportunities"
+      },
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "slider_image",
+            "label": "Image Here"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "<> Partner With Us"
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "ew_form_content_hxqD9h": {
+      "type": "ew-form-content",
+      "settings": {
+        "heading": "Wholesale Form",
+        "single_image": "shopify://shop_images/66feb18b8e4931d81439186f_image.webp_1.png",
+        "form_content": "<iframe src=\"https://api.leadconnectorhq.com/widget/survey/WY6cHO2in34875FsiVP1\" style=\"border:none;width:100%;\" scrolling=\"no\" id=\"WY6cHO2in34875FsiVP1\" title=\"Wholesale Form\"></iframe>\n<script src=\"https://link.msgsndr.com/js/form_embed.js\"></script>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ew_form_content_hxqD9h"
+  ]
+}

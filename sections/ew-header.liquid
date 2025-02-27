@@ -1,0 +1,28 @@
+{% assign s = section.settings %}
+
+<section class="ew-header ew-header-{{ section.id }}" id="ew-header">
+  <div class="ew-header-row">
+    <div class="page-width">
+      <div class="ew-header-wrap">
+        {% if s.logo %}
+          <a href="/">
+            <img src="{{ s.logo | image_url: width: 500 }}" class="img-responsive" alt="Header Logo" />
+          </a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Custom Header",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Image"
+    }
+  ]
+}
+{% endschema %}

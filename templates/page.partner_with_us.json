@@ -1,0 +1,69 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "ew_pwu_HAEgLe": {
+      "type": "ew-pwu",
+      "blocks": {
+        "image_xjptgU": {
+          "type": "image",
+          "settings": {
+            "slider_image": "shopify://shop_images/6253fe9831f23b1595feb80d_about1_20img02_jpg.png"
+          }
+        },
+        "image_fNmtq9": {
+          "type": "image",
+          "settings": {
+            "slider_image": "shopify://shop_images/6253fe9831f23b31edfeb80e_about1_20img03_jpg.png"
+          }
+        },
+        "image_Q98eYP": {
+          "type": "image",
+          "settings": {
+            "slider_image": "shopify://shop_images/6253fe9831f23bf8b4feb81a_about1_20img01_jpg.png"
+          }
+        },
+        "image_PVYaAV": {
+          "type": "image",
+          "settings": {
+            "slider_image": "shopify://shop_images/6253fe9831f23b0ca7feb807_about1_20img05_jpg.png"
+          }
+        },
+        "image_ALjKzx": {
+          "type": "image",
+          "settings": {
+            "slider_image": "shopify://shop_images/6253fe9831f23b623efeb80b_about1_20img04_jpg.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_xjptgU",
+        "image_fNmtq9",
+        "image_Q98eYP",
+        "image_PVYaAV",
+        "image_ALjKzx"
+      ],
+      "settings": {
+        "subheading": "Partner With Us",
+        "heading": "House of Luxury Offerings",
+        "description": "House of Luxury offers a full suite of solutions for individuals and businesses interested in buying and selling luxury goods. Education, Buyback, Access to Wholesale Suppliers & More.",
+        "wwo_heading": "What we offer",
+        "form_content": "<iframe\n  src=\"https://api.leadconnectorhq.com/widget/form/Eoi7XCxkdEWfyL78fFH7\"\n  style=\"width:100%;height:100%;border:none;border-radius:24px\"\n  id=\"inline-Eoi7XCxkdEWfyL78fFH7\" \n  data-layout=\"{'id':'INLINE'}\"\n  data-trigger-type=\"alwaysShow\"\n  data-trigger-value=\"\"\n  data-activation-type=\"alwaysActivated\"\n  data-activation-value=\"\"\n  data-deactivation-type=\"neverDeactivate\"\n  data-deactivation-value=\"\"\n  data-form-name=\"Partner With Us\"\n  data-height=\"1349\"\n  data-layout-iframe-id=\"inline-Eoi7XCxkdEWfyL78fFH7\"\n  data-form-id=\"Eoi7XCxkdEWfyL78fFH7\"\n  title=\"Partner With Us\"\n      >\n</iframe>\n<script src=\"https://link.msgsndr.com/js/form_embed.js\"></script>",
+        "list_item1": "Educational Community",
+        "list_item2": "Buyout / Cash Out Offers",
+        "list_item3": "B2B Marketplace",
+        "list_item4": "Partnership Opportunities"
+      }
+    }
+  },
+  "order": [
+    "ew_pwu_HAEgLe"
+  ]
+}

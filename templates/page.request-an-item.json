@@ -1,0 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "ew_form_content_Lc6hNJ": {
+      "type": "ew-form-content",
+      "settings": {
+        "heading": "Request an Item",
+        "single_image": "shopify://shop_images/66feb18b8e4931d81439186f_image.webp_1.png",
+        "form_content": "<iframe\n  src=\"https://api.leadconnectorhq.com/widget/form/d88NNcXcooV49qlJHmst\"\n  style=\"width:100%;height:100%;border:none;border-radius:24px\"\n  id=\"inline-d88NNcXcooV49qlJHmst\" \n  data-layout=\"{'id':'INLINE'}\"\n  data-trigger-type=\"alwaysShow\"\n  data-trigger-value=\"\"\n  data-activation-type=\"alwaysActivated\"\n  data-activation-value=\"\"\n  data-deactivation-type=\"neverDeactivate\"\n  data-deactivation-value=\"\"\n  data-form-name=\"Request An Item\"\n  data-height=\"692\"\n  data-layout-iframe-id=\"inline-d88NNcXcooV49qlJHmst\"\n  data-form-id=\"d88NNcXcooV49qlJHmst\"\n  title=\"Request An Item\"\n      >\n</iframe>\n<script src=\"https://link.msgsndr.com/js/form_embed.js\"></script>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ew_form_content_Lc6hNJ"
+  ]
+}

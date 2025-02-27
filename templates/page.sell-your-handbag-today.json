@@ -1,0 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "ew_form_content_Lpgz7h": {
+      "type": "ew-form-content",
+      "settings": {
+        "heading": "Sell your handbag today",
+        "single_image": "shopify://shop_images/66feb18b8e4931d81439186f_image_webp.png",
+        "form_content": "<iframe\n  src=\"https://api.leadconnectorhq.com/widget/form/KIODn2PbqmVcfVRSrZdf\"\n  style=\"width:100%;height:100%;border:none;border-radius:24px\"\n  id=\"inline-KIODn2PbqmVcfVRSrZdf\" \n  data-layout=\"{'id':'INLINE'}\"\n  data-trigger-type=\"alwaysShow\"\n  data-trigger-value=\"\"\n  data-activation-type=\"alwaysActivated\"\n  data-activation-value=\"\"\n  data-deactivation-type=\"neverDeactivate\"\n  data-deactivation-value=\"\"\n  data-form-name=\"Sell to Us Form\"\n  data-height=\"1815\"\n  data-layout-iframe-id=\"inline-KIODn2PbqmVcfVRSrZdf\"\n  data-form-id=\"KIODn2PbqmVcfVRSrZdf\"\n  title=\"Sell to Us Form\"\n      >\n</iframe>\n<script src=\"https://link.msgsndr.com/js/form_embed.js\"></script>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ew_form_content_Lpgz7h"
+  ]
+}

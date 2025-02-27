@@ -1,0 +1,82 @@
+{% assign s = section.settings %}
+
+<section class="ew-footer ew-footer-{{ section.id }}" id="ew-footer">
+  <div class="ew-footer-row1">
+    <div class="page-width">
+      <div class="ew-footer-wrap">
+        <h3>{{s.heading}}</h3>
+        {% if s.menu != blank %}
+        <ul>
+          {% for link in s.menu.links %}
+          <li>
+            <a href="{{ link.url }}">
+              {{ link.title }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  <div class="ew-footer-row2">
+    <div class="page-width">
+      <div class="ew-footer-copyright">
+        {% if s.copyright_text != blank %}
+          <p class="ew-copyright-text">{{ s.copyright_text }}</p>
+        {% endif %}
+        {% if s.powered_by_text != blank %}
+          <p class="ew-poweredby-text">{{ s.powered_by_text }}</p>
+        {% endif %}
+        {% if s.policy_menu != blank %}
+        <ul>
+          {% for link in s.policy_menu.links %}
+          <li>
+            <a href="{{ link.url }}">
+              {{ link.title }}
+              </a>
+          </li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Custom Footer",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading Here",
+      "default": "Quick links"
+    },
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "Menu"
+    },
+    {
+      "type": "text",
+      "id": "copyright_text",
+      "label": "Copyright Text",
+      "default": "© 2025, House of Luxury LLC"
+    },
+    {
+      "type": "text",
+      "id": "powered_by_text",
+      "label": "Powered By Text",
+      "default": "Powered by Shopify"
+    },
+    {
+      "type": "link_list",
+      "id": "policy_menu",
+      "label": "Policy Menu",
+      "info": "Select a menu with links to policies such as Privacy Policy, Refund Policy, etc."
+    }
+  ]
+}
+{% endschema %}

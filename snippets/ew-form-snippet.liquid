@@ -1,0 +1,11 @@
+{% if customer %}
+{% if form != blank %}
+  <div class="ew-form-snippet">
+    {{ form }}
+  </div>
+{% endif %}
+{% else %}
+ <div class="ew-form-non-customer-snippert">
+    Need To Login to fill out the forms
+  </div>
+{% endif %}

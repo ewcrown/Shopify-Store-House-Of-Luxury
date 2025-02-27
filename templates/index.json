@@ -1,0 +1,317 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "Welcome to the",
+            "title": "House of\nLuxury",
+            "title_size": 80,
+            "subheading": "",
+            "link": "shopify://collections/all",
+            "link_text": "Shop Now",
+            "link_2": "shopify://collections/all",
+            "link_text_2": "",
+            "color_accent": "#000000",
+            "text_align": "vertical-center horizontal-center",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "slideshow-1": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "B2B Partnership",
+            "title": "Luxury\nWholesale",
+            "title_size": 80,
+            "subheading": "Get Access to Our Luxury Suppliers",
+            "link": "shopify://collections/all",
+            "link_text": "Shop all",
+            "link_2": "shopify://collections/all",
+            "link_text_2": "Shop all",
+            "color_accent": "#000000",
+            "text_align": "vertical-bottom horizontal-left",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "image_henYba": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "Shop with Us",
+            "title": "Live Luxury\nAuctions",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "Shop Live",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0",
+        "slideshow-1",
+        "image_henYba"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "lazyload_images": true
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "featured-collections-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "featured-collections-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "featured-collections-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "featured-collections-0",
+        "featured-collections-1",
+        "featured-collections-2"
+      ],
+      "settings": {
+        "title": "",
+        "divider": false,
+        "per_row": 4,
+        "enable_gutter": true
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "home_featured_products": "new-drop",
+        "per_row": 4,
+        "rows": 2,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "text_and_image_g6j6DX": {
+      "type": "text-and-image",
+      "settings": {
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "Shop Live",
+        "title": "Auctions",
+        "text": "<p>We are a preferred seller on Whatnot, hosting live auctions, Monday to Sunday for 8 to 12 hours at a time. Checkout our next show!</p>",
+        "button_label": "Shop Live",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_8FpmdL": {
+      "type": "text-and-image",
+      "settings": {
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "We Authentcate",
+        "title": "everything",
+        "text": "<p>We authenticate every piece we sell with RealAuthentication. Use our custom portal to authenticate your piece.</p>",
+        "button_label": "Authenticate",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "promo-grid": {
+      "type": "promo-grid",
+      "blocks": {
+        "promo-0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "Source an Item",
+            "textarea": "Looking for something specific? Let our suppliers work for you and find the bag of your dreams!",
+            "cta_text1": "Request Item",
+            "cta_link1": "shopify://collections/all",
+            "cta_text2": "",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": true
+          }
+        },
+        "promo-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "Sell to Us",
+            "textarea": "Clearing out your closet? Learn about our different selling options to sell us your inventory.",
+            "cta_text1": "Sell Now",
+            "cta_link1": "shopify://collections/all",
+            "cta_text2": "",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "50",
+            "height": 600,
+            "text_size": 100,
+            "text_align": "vertical-bottom horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": true,
+            "framed": false
+          }
+        },
+        "advanced_rBALL3": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Partnership",
+            "cta_link1": "",
+            "cta_text2": "Wholesale",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "100",
+            "height": 300,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "promo-0",
+        "promo-1",
+        "advanced_rBALL3"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 20,
+        "space_above": false,
+        "space_below": false,
+        "lazyload_images": true
+      }
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "From the journal",
+        "blog": "news",
+        "post_limit": 3,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": true,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    },
+    "map": {
+      "type": "map",
+      "settings": {
+        "map_title": "Auction Schedule",
+        "address": "<p></p><p>Monday 1:00pm - 12:30pm</p><p>Monday 1:00pm - 12:30pm</p><p>Saturday, 8:30am - 10:30pm<br/>Sunday, 8:30am - 10:30pm</p>",
+        "map_address": "301 Front St W, Toronto, ON M5V 2T6",
+        "api_key": "",
+        "show_button": true,
+        "lazyload_images": true
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "rich-text",
+    "featured-collections",
+    "featured-collection",
+    "text_and_image_g6j6DX",
+    "text_and_image_8FpmdL",
+    "promo-grid",
+    "blog-posts",
+    "map"
+  ]
+}
