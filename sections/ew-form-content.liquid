@@ -4,6 +4,9 @@
     <div class="page-width">
       <div class="ew-form-content-wrap">
         <h3 class="ew-form-heading">{{  s.heading }}</h3>
+        {% if s.description != blank %}
+          <p class="ew-form-description">{{  s.description }}</p>
+        {% endif %}
         <div class="ew-form-content-grid">
           <div class="ew-form-content-image">
             {% if s.single_image %}
@@ -27,6 +30,11 @@
         "id": "heading",
         "label": "Heading Here",
         "default": "Authenticate Your Item"
+      },
+      {
+        "type": "text",
+        "id": "description",
+        "label": "Description Here"
       },
       {
         "type": "image_picker",

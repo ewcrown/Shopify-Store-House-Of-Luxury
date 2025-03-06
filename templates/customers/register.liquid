@@ -1,30 +1,58 @@
-<div class="page-width page-width--tiny page-content">
-  <header class="section-header">
-    <h1 class="section-header__title">{{ 'customer.register.title' | t }}</h1>
-  </header>
+<div class="ew-account-form-section">
+  <div class="ew-account-form-row">
 
-  <div class="form-vertical">
-    {%- form 'create_customer' -%}
+  <div class="ew-account-form-wrap">
+    <div class="ew-account-form-left">
+      <header class="section-header">
+        <h1 class="section-header__title">{{ 'customer.register.title' | t }}</h1>
+      </header>
+      <div class="form-vertical">
+        {%- form 'create_customer' -%}
 
-      {{ form.errors | default_errors }}
+          <textarea style="display:none" name="customer[note]" id="note" class="input-full" required></textarea>
 
-      <label for="FirstName">{{ 'customer.register.first_name' | t }}</label>
-      <input type="text" name="customer[first_name]" id="FirstName" class="input-full"{% if form.first_name %} value="{{ form.first_name }}"{% endif %} autocapitalize="words" autofocus>
+          {{ form.errors | default_errors }}
 
-      <label for="LastName">{{ 'customer.register.last_name' | t }}</label>
-      <input type="text" name="customer[last_name]" id="LastName" class="input-full"{% if form.last_name %} value="{{ form.last_name }}"{% endif %} autocapitalize="words">
+          <label for="FirstName">{{ 'customer.register.first_name' | t }}</label>
+          <input type="text" name="customer[first_name]" id="FirstName" class="input-full"{% if form.first_name %} value="{{ form.first_name }}"{% endif %} autocapitalize="words" autofocus>
 
-      <label for="Email">{{ 'customer.register.email' | t }}</label>
-      <input type="email" name="customer[email]" id="Email" class="input-full{% if form.errors contains 'email' %} error{% endif %}"{% if form.email %} value="{{ form.email }}"{% endif %} autocorrect="off" autocapitalize="off">
+          <label for="LastName">{{ 'customer.register.last_name' | t }}</label>
+          <input type="text" name="customer[last_name]" id="LastName" class="input-full"{% if form.last_name %} value="{{ form.last_name }}"{% endif %} autocapitalize="words">
 
-      <label for="CreatePassword">{{ 'customer.register.password' | t }}</label>
-      <input type="password" name="customer[password]" id="CreatePassword" class="input-full{% if form.errors contains 'password' %} error{% endif %}">
+          <label for="Email">{{ 'customer.register.email' | t }}</label>
+          <input type="email" name="customer[email]" id="Email" class="input-full{% if form.errors contains 'email' %} error{% endif %}"{% if form.email %} value="{{ form.email }}"{% endif %} autocorrect="off" autocapitalize="off">
 
-      <p>
-        <label for="register-submit" class="hidden-label">{{ 'customer.register.submit' | t }}</label>
-        <input type="submit" id="register-submit" value="{{ 'customer.register.submit' | t }}" class="btn btn--full">
-      </p>
+          <label for="CreatePassword">{{ 'customer.register.password' | t }}</label>
+          <input type="password" name="customer[password]" id="CreatePassword" class="input-full{% if form.errors contains 'password' %} error{% endif %}">
 
-    {%- endform -%}
-  </div>
+      
+          <label for="Phone">Phone Number</label>
+          <input type="tel" name="customer[phone]" id="Phone" class="input-full" required>
+
+
+          <label for="WhatNotId">Whatnot Username*</label>
+          <p class="ew-connect-text">Connect your Whatnot purchases to get the perfect listing, and FREE Real Authentication COAs.</p>
+          <input type="text" name="customer[Whatnot]" id="WhatNotId" class="input-full" required>
+
+
+          <p>
+            <labeL class="register-terms-conditions">
+            <input type="checkbox" id="register-terms-conditions" value="{{ 'customer.register.submit' | t }}">
+            I agree to House of Luxury Terms and Conditions
+            </labeL>
+          </p>
+
+          <p>
+            <label for="register-submit" class="hidden-label">{{ 'customer.register.submit' | t }}</label>
+            <input type="submit" id="register-submit" value="{{ 'customer.register.submit' | t }}" class="btn btn--full">
+          </p>
+
+        {%- endform -%}
+      </div>
+    </div>
+    <div class="ew-account-form-right">
+      <img src="https://cdn.shopify.com/s/files/1/0567/6715/2280/files/create-account-background.png?v=1741303936" class="ew-img-fluid">
+    </div>
+</div>
+</div>
 </div>

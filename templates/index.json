@@ -301,6 +301,54 @@
         "show_button": true,
         "lazyload_images": true
       }
+    },
+    "countdown_cBfbAr": {
+      "type": "countdown",
+      "blocks": {
+        "content_KBHg8G": {
+          "type": "content",
+          "settings": {
+            "heading": "Test Page",
+            "heading_size": "h2",
+            "text": "<p>Click button for test page</p>",
+            "content_alignment": "left"
+          }
+        },
+        "timer_pQRW4W": {
+          "type": "timer",
+          "settings": {
+            "year": "2025",
+            "month": "01",
+            "day": "1",
+            "hour": "03",
+            "minute": "00",
+            "hide_timer": false,
+            "text": ""
+          }
+        },
+        "button_9DrPfm": {
+          "type": "button",
+          "settings": {
+            "button_link": "shopify://pages/request-an-item",
+            "button": "Request an Item",
+            "button_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "content_KBHg8G",
+        "timer_pQRW4W",
+        "button_9DrPfm"
+      ],
+      "settings": {
+        "layout": "banner",
+        "full_width": false,
+        "text_color": "#000000",
+        "background_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
@@ -312,6 +360,7 @@
     "text_and_image_8FpmdL",
     "promo-grid",
     "blog-posts",
-    "map"
+    "map",
+    "countdown_cBfbAr"
   ]
 }

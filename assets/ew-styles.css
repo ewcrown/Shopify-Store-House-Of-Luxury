@@ -1,3 +1,56 @@
+.ew-account-form-right img,
+.ew-account-form-right {
+  height: 100%;
+  object-fit: cover;
+}
+.ew-connect-text {
+  font-family: var(--typeBasePrimary), var(--typeBaseFallback);
+  font-size: 14px;
+}
+
+.register-terms-conditions {
+  display: flex;
+}
+
+.ew-account-form-left {
+  padding: 100px;
+}
+
+.ew-account-form-left:has(#RecoverPasswordForm:not(.hide)) .section-header {
+  display: none;
+}
+
+.ew-account-form-row:has(#RecoverPasswordForm:not(.hide)) .ew-login-page {
+  display: none;
+}
+
+.ew-account-form-row:has(#RecoverPasswordForm:not(.hide)) .ew-forgot-password {
+  display: block;
+}
+
+
+.ew-forgot-password {
+  display: none;
+}
+
+.ew-form-create-account a {
+  color: var(--colorNavText);
+  text-decoration: underline;
+}
+
+.form-vertical h2,
+.form-vertical p,
+.section-header p,
+.section-header__title {
+  text-align: left;
+}
+
+.ew-account-form-wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
 .ew-pwu-list ul {
   margin: 0;
 }
@@ -30,6 +83,7 @@
   align-items: flex-start;
   gap: 70px;
   justify-content: center;
+  margin-bottom: 120px;
 }
 
 .ew-pwu-row3 {
@@ -100,27 +154,27 @@
 }
 
 .ew-heading {
-    color: #121c31;
-    font-family: Exmouth;
-    font-size: 120px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 147px;
-    letter-spacing: -2px;
-    text-align: center;
-    text-transform: inherit !important;
+  color: #121c31;
+  font-family: Exmouth;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 147px;
+  letter-spacing: -2px;
+  text-align: center;
+  text-transform: inherit !important;
 }
 
 .ew-pwu-wrap p {
-    color: #121c31;
-    text-align: center;
-    font-family: Rische;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    max-width: 1080px;
-    margin: auto;
+  color: #121c31;
+  text-align: center;
+  font-family: Rische;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  max-width: 1080px;
+  margin: auto;
 }
 
 .ew-form-content-row {
@@ -170,16 +224,18 @@
 }
 
 .ew-form-description {
-  color: #121C31;
+  color: #121c31;
   text-align: center;
   font-family: Rische;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-  /* 133.333% */
   margin-top: -40px;
   margin-bottom: 52px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .ew-footer {
@@ -200,14 +256,14 @@
 }
 
 .ew-footer-wrap ul li a {
-    color: #ffffffbf;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25.2px;
-    letter-spacing: .6px;
+  color: #ffffffbf;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.2px;
+  letter-spacing: .6px;
 }
 
 .ew-footer-wrap ul {
@@ -257,6 +313,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.ew-form-non-customer-snippet {
+  text-align: center;
+}
+
+.ew-form-non-customer-snippet a {
+  color: #dac39d;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 @media(max-width:600px) {
@@ -338,6 +404,7 @@
     gap: 30px;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 30px;
   }
 
   .ew-pwu-row3 {
@@ -356,10 +423,19 @@
   .ew-wwo-wrap .ew-subheading {
     margin: auto;
   }
+
   .ew-wwo-wrap .ew-text {
     font-size: 36px;
     line-height: normal;
     top: -10px;
     left: -30px;
+  }
+
+  .ew-account-form-wrap {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .ew-account-form-left {
+    padding: 30px;
   }
 }

@@ -5,7 +5,7 @@
   </div>
 {% endif %}
 {% else %}
- <div class="ew-form-non-customer-snippert">
-    Need To Login to fill out the forms
+ <div class="ew-form-non-customer-snippet">
+   Please log in to fill out the forms. <a href='/account/login?return_url=%2Fpages%2F{{  request.path | replace: '/pages/', '' }}'>Login</a>
   </div>
 {% endif %}

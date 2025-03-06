@@ -148,6 +148,17 @@
     </div>
   </template>
 {% render 'hulkappsWishlistPopup' %}
+
+
+{% if customer %}
+  {% comment %} <script>
+    window.customerFName = '{{  customer.first_name }}'
+    window.customerLName = '{{  customer.last_name }}'
+    window.customerEmail = '{{  customer.email }}'
+  </script> {% endcomment %}
+  
+{% endif %}
+  {{ 'ew-script.js' | asset_url | script_tag }}
 <script>
   const imagesSlider = document.querySelector('.ew-images-slider');
   if (imagesSlider) {
