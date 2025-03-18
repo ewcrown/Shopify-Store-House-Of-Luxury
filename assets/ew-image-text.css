@@ -1,0 +1,41 @@
+.ew-image-text-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.ew-text-side {
+  padding: 40px 120px;
+}
+
+.ew-image-side img {
+  width: 100%;
+}
+
+.ew-text-side h1 {
+  font-size: 64px;
+  margin-bottom: 30px;
+}
+
+.ew-text-side p {
+  margin-bottom: 30px;
+}
+
+@media(max-width:600px) {
+  .ew-image-text-row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .ew-text-side {
+    padding: 40px;
+  }
+
+  .ew-text-side h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .ew-text-side p {
+    margin-bottom: 20px;
+  }
+}

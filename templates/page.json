@@ -11,10 +11,19 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {}
+    },
+    "ew_image_text_A68jQX": {
+      "type": "ew-image-text",
+      "settings": {
+        "image": "shopify://shop_images/S806_806-44362_01L.jpg",
+        "text": "<h1>Thank You</h1><p>Our team has received your request and should contact you within 24 to 48 hours with any additional information we need or items that we currently have available. If you want to start shopping with us right now, check us out on Whatnot; we are typically live Monday to Saturday 2pm to 12pm EST</p>"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "ew_image_text_A68jQX"
   ]
 }

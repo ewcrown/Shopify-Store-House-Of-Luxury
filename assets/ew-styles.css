@@ -3,6 +3,7 @@
   height: 100%;
   object-fit: cover;
 }
+
 .ew-connect-text {
   font-family: var(--typeBasePrimary), var(--typeBaseFallback);
   font-size: 14px;

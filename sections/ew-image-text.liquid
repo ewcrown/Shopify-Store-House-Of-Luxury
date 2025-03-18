@@ -1,0 +1,48 @@
+{{ 'ew-image-text.css' | asset_url | stylesheet_tag }}
+{% assign s = section.settings %}
+<section class="ew-image-text-{{ section.id }} ew-image-text" id="ew-image-text">
+  <div class="ew-image-text-row">
+    <div class="ew-image-side">
+      {{ s.image | image_url: width: 1000 | image_tag: loading: 'lazy' }}
+    </div>
+    <div class="ew-text-side">
+      {{ s.text }}
+      {% if s.button_link != blank %}
+        <a target="_blank" class="btn" href="{{ s.button_link }}">{{ s.button_text }}</a>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "<> Image Text",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image Here"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text Here"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "<> Image Text"
+    }
+  ]
+}
+{% endschema %}
